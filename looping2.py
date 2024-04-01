@@ -64,10 +64,16 @@ for i in range(5, 0, -1):
     print()
 
 #no 8
-for i in range(1, 8):
-    for j in range(1, i + 1):
-        print("* ", end="")
-    print()
+a = 1
+b = 1
+c = 2
+
+for i in range(7):
+    print(" * " * a)
+    c = b
+    b =a + b
+    a = c
+print()
 
 #no 9
 for i in range(1, 6):
